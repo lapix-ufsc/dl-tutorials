@@ -2,3 +2,12 @@ website:
   sidebar:
     contents:
       - index.ipynb
+      - section: Datasets
+        contents:
+          - Datasets/CCAgT.ipynb
+      - section: Semantic segmentation
+        contents:
+          - Semantic segmentation/index.ipynb
+          - section: Fastai
+            contents:
+              - Semantic segmentation/Fastai/unet.ipynb
