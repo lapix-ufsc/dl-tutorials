@@ -9,13 +9,13 @@ project:
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
     css: styles.css
     toc: true
     toc-depth: 4
 
 website:
-  title: "Lapix - Deep learning tutorials"
+  title: "dl-tutorials"
   description: "This repository contains demonstrations done with deep learning computer vision models."
   execute: 
     enabled: false
