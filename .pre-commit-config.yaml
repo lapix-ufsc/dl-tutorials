@@ -15,12 +15,16 @@ repos:
     - id: nbdev-clean
       name: nbdev-clean
       description: To avoid pointless conflicts while working with jupyter notebooks (with different execution counts or cell metadata).
+      additional_dependencies: [nbdev>=2.1.1]
       entry: nbdev_clean
-      language: system
+      language: python
       pass_filenames: false
     - id: nbdev-docs
       name: nbdev-docs
       description: Generate docs
+      additional_dependencies: [nbdev>=2.1.1]
       entry: nbdev_docs
-      language: system
+      language: python
       pass_filenames: false
+ci:
+    skip: [nbdev-docs]
