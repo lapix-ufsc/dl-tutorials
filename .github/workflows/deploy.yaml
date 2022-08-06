@@ -7,15 +7,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # from https://github.com/fastai/workflows/blob/d46c2005f76171e97b7a6fa612ffc5015cdf9f56/quarto-ghp/action.yml
+      # based on https://github.com/fastai/workflows/blob/d46c2005f76171e97b7a6fa612ffc5015cdf9f56/quarto-ghp/action.yml
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -U --pre nbdev
-          pip install -e ".[dev]"
-          pip uninstall dltutorials -y # At moment we do not have a dltutorials module
+          pip install -r requirements-dev.txt
         shell: bash
       - run: nbdev_docs
         shell: bash

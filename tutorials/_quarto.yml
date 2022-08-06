@@ -15,7 +15,7 @@ format:
     toc-depth: 4
 
 website:
-  title: "dltutorials"
+  title: "Lapix - Deep learning tutorials"
   description: "This repository contains demonstrations done with deep learning computer vision models."
   execute: 
     enabled: false
