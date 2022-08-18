@@ -34,8 +34,8 @@ following datasets:
 
 ## Authors
 
-|             Name             | GitHub                                   | Orcid                                                        |
-|:----------------------------:|------------------------------------------|--------------------------------------------------------------|
-|     Aldo von Wangenheim      | [@awangenh](https://github.com/awangenh) | [0000-0003-4532-1417](https://orcid.org/0000-0003-4532-1417) |
-| João Gustavo Atkinson Amorim | [@johnnv1](http://github.com/johnnv1)    | [0000-0003-3361-6891](https://orcid.org/0000-0003-3361-6891) |
-|                              |                                          |                                                              |
+|             Name             | GitHub                                           | Orcid                                                        |
+|:----------------------------:|--------------------------------------------------|--------------------------------------------------------------|
+|     Aldo von Wangenheim      | [@awangenh](https://github.com/awangenh)         | [0000-0003-4532-1417](https://orcid.org/0000-0003-4532-1417) |
+| João Gustavo Atkinson Amorim | [@johnnv1](http://github.com/johnnv1)            | [0000-0003-3361-6891](https://orcid.org/0000-0003-3361-6891) |
+|    André Victória Matias     | [@andrevmatias](https://github.com/andrevmatias) | [0000-0003-0268-0233](https://orcid.org/0000-0003-0268-0233) |
