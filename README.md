@@ -30,7 +30,7 @@ following datasets:
     Technique](https://doi.org/10.17632/wg4bpm33hj.2)
 2.  [Clouds-1000](https://doi.org/10.17632/4pw8vfsnpx.2)
 3.  [UFSC OCPap: Papanicolaou Stained Oral Cytology Dataset
-    (v4)](https://doi.org/10.17632/dr7ydy9xbk.1)
+    (v4)](https://doi.org/10.17632/dr7ydy9xbk.2)
 
 ## Authors
 
