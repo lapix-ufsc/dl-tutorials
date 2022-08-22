@@ -1,28 +1,13 @@
 name: Generate docs and deploy to GitHub Pages
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: 'main'
   workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # based on https://github.com/fastai/workflows/blob/d46c2005f76171e97b7a6fa612ffc5015cdf9f56/quarto-ghp/action.yml
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-      - name: Install python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -U --pre nbdev
-          pip install -r requirements-dev.txt
-        shell: bash
-      - name: Install quarto (doc builder)
-        run: |
-          curl -LO https://www.quarto.org/download/latest/quarto-linux-amd64.deb
-          sudo dpkg -i *64.deb && rm *64.deb
-        shell: bash
-      - run: nbdev_docs
-        shell: bash
+      - uses: ./.github/workflows/doc-build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
