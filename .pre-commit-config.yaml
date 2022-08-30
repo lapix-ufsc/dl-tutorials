@@ -18,6 +18,7 @@ repos:
     - id: nbqa-isort
       args: ['--profile=black']
     - id: nbqa-black
+      args: ['--nbqa-dont-skip-bad-cells']
     - id: nbqa-flake8
       args: ['--config=settings.ini']
 - repo: local
