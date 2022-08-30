@@ -1,2 +1,8 @@
+albumentations
 datasets
+fastai
+imgaug
+lapixdl
 Pillow
+semtorch
+torch
