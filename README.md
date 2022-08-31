@@ -30,12 +30,12 @@ following datasets:
     Technique](https://doi.org/10.17632/wg4bpm33hj.2)
 2.  [Clouds-1000](https://doi.org/10.17632/4pw8vfsnpx.2)
 3.  [UFSC OCPap: Papanicolaou Stained Oral Cytology Dataset
-    (v4)](https://doi.org/10.17632/dr7ydy9xbk.1)
+    (v4)](https://doi.org/10.17632/dr7ydy9xbk.2)
 
 ## Authors
 
-|             Name             | GitHub                                   | Orcid                                                        |
-|:----------------------------:|------------------------------------------|--------------------------------------------------------------|
-|     Aldo von Wangenheim      | [@awangenh](https://github.com/awangenh) | [0000-0003-4532-1417](https://orcid.org/0000-0003-4532-1417) |
-| João Gustavo Atkinson Amorim | [@johnnv1](http://github.com/johnnv1)    | [0000-0003-3361-6891](https://orcid.org/0000-0003-3361-6891) |
-|                              |                                          |                                                              |
+|             Name             | GitHub                                           | Orcid                                                        |
+|:----------------------------:|--------------------------------------------------|--------------------------------------------------------------|
+|     Aldo von Wangenheim      | [@awangenh](https://github.com/awangenh)         | [0000-0003-4532-1417](https://orcid.org/0000-0003-4532-1417) |
+| João Gustavo Atkinson Amorim | [@johnnv1](http://github.com/johnnv1)            | [0000-0003-3361-6891](https://orcid.org/0000-0003-3361-6891) |
+|    André Victória Matias     | [@andrevmatias](https://github.com/andrevmatias) | [0000-0003-0268-0233](https://orcid.org/0000-0003-0268-0233) |

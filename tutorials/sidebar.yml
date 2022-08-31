@@ -11,3 +11,6 @@ website:
           - section: Fastai
             contents:
               - Semantic segmentation/Fastai/unet.ipynb
+          - section: Semtorch
+            contents:
+              - Semantic segmentation/Semtorch/HRNet.ipynb
