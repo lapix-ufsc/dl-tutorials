@@ -2,7 +2,7 @@ albumentations
 datasets
 fastai
 imgaug
-lapixdl
+lapixdl==0.8.12
 Pillow
 semtorch
 torch
