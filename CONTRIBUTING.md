@@ -48,7 +48,13 @@ that nobody is already working on the same thing.
 
     ```bash
     $ pip install -r requeriments-dev.txt
-    $ pip install nbdev
+    $ pip install nbdev==2.1.6
+    ```
+
+    Manual install `quarto` to work with `nbdev==2.1.6`:
+    ```bash
+    $ curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.0.36/quarto-1.0.36-linux-amd64.deb
+    $ sudo dpkg -i *64.deb && rm *64.deb
     ```
 
     To preview the pages, run:
