@@ -1,8 +1,14 @@
 albumentations
 datasets
+datasets
 fastai
 imgaug
 lapixdl==0.8.12
+matplotlib
+numpy
 Pillow
 semtorch
 torch
+torchmetrics
+tqdm
+transformers

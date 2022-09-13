@@ -11,6 +11,9 @@ website:
           - section: Fastai
             contents:
               - Semantic segmentation/Fastai/unet.ipynb
+          - section: Hugging Face
+            contents:
+              - Semantic segmentation/Hugging Face/SegFormer_HF.ipynb
           - section: Semtorch
             contents:
               - Semantic segmentation/Semtorch/HRNet.ipynb
