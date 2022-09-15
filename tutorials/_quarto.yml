@@ -1,40 +1,31 @@
-ipynb-filters: [nbdev_filter]
-
 project:
   type: website
-  output-dir: _docs
-  preview:
-    port: 3000
-    browser: false
+  output-dir: docs
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 4
 
 website:
   title: "Lapix - Deep learning tutorials"
-  site-url: "https://lapix-ufsc.github.io/tmp"
+  site-url: "https://lapix-ufsc.github.io/dl-tutorials"
   description: "This repository contains demonstrations done with deep learning computer vision models."
-  execute: 
-    enabled: false
-  twitter-card: true
-  open-graph: true
-  reader-mode: true
   repo-branch: main
   repo-url: "https://github.com/lapix-ufsc/dl-tutorials/"
+  twitter-card: true
+  open-graph: true
   repo-actions: [issue]
+  search: 
+    location: navbar
+    type: overlay
   navbar:
     background: primary
-    search: true
     right:
       - icon: github
-        href: "https://github.com/lapix-ufsc/dl-tutorials/"
+        href: https://github.com/lapix-ufsc/dl-tutorials/
   sidebar:
-    style: "floating"
+    style: floating
 
-metadata-files: 
-  - sidebar.yml
-  - custom.yml
+metadata-files: [sidebar.yml]
