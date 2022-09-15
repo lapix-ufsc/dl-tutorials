@@ -8,14 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-      - name: Install python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -U nbdev==2.1.6
-          pip install fastcore==1.5.17
-          pip install -r requirements-dev.txt
-        shell: bash
       - name: Install quarto (doc builder)
         run: |
           curl -LO https://www.quarto.org/download/latest/quarto-linux-amd64.deb
