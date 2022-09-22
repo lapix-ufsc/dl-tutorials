@@ -14,3 +14,12 @@ website:
           - section: Semtorch
             contents:
               - Semantic segmentation/Semtorch/HRNet.ipynb
+      - section: Image Classification
+        contents:
+          - Image Classification/index.ipynb
+          - section: Fastai
+            contents:
+              - Image Classification/Fastai/resnet.ipynb
+          - section: HRNet
+            contents:
+              - Image Classification/HRNet/hrnet.ipynb
