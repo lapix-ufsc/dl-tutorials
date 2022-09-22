@@ -23,3 +23,6 @@ website:
           - section: HRNet
             contents:
               - Image Classification/HRNet/hrnet.ipynb
+      - section: Evaluation
+        contents:
+          - Evaluation/pytorch_basics.ipynb
