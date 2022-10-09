@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        shell: bash
       - name: Install quarto (doc builder)
         run: |
           curl -LO https://www.quarto.org/download/latest/quarto-linux-amd64.deb
