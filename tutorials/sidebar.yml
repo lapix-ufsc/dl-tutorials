@@ -14,3 +14,6 @@ website:
           - section: Semtorch
             contents:
               - Semantic segmentation/Semtorch/HRNet.ipynb
+          - section: PaddleSeg
+            contents:
+              - Semantic segmentation/PaddleSeg/PaddleSeg_Lapix.ipynb
