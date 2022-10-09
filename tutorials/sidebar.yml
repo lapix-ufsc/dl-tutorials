@@ -26,3 +26,7 @@ website:
       - section: Evaluation
         contents:
           - Evaluation/pytorch_basics.ipynb
+          - section: torchmetrics
+            contents:
+                - Evaluation/torchmetrics/Semantic_Segmentation.ipynb
+
