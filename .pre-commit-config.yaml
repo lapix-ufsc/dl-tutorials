@@ -30,3 +30,4 @@ repos:
       entry: nbdev_clean
       language: python
       pass_filenames: false
+      args: ['--fname', 'tutorials/']
