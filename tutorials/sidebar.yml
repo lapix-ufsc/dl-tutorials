@@ -14,6 +14,9 @@ website:
           - section: Semtorch
             contents:
               - Semantic segmentation/Semtorch/HRNet.ipynb
+          - section: PaddleSeg
+            contents:
+              - Semantic segmentation/PaddleSeg/PaddleSeg_Lapix.ipynb
       - section: Image Classification
         contents:
           - Image Classification/index.ipynb
@@ -29,4 +32,3 @@ website:
           - section: torchmetrics
             contents:
                 - Evaluation/torchmetrics/Semantic_Segmentation.ipynb
-
