@@ -17,3 +17,21 @@ website:
           - section: Semtorch
             contents:
               - Semantic segmentation/Semtorch/HRNet.ipynb
+          - section: PaddleSeg
+            contents:
+              - Semantic segmentation/PaddleSeg/PaddleSeg_Lapix.ipynb
+      - section: Image Classification
+        contents:
+          - Image Classification/index.ipynb
+          - section: Fastai
+            contents:
+              - Image Classification/Fastai/resnet.ipynb
+          - section: HRNet
+            contents:
+              - Image Classification/HRNet/hrnet.ipynb
+      - section: Evaluation
+        contents:
+          - Evaluation/pytorch_basics.ipynb
+          - section: torchmetrics
+            contents:
+                - Evaluation/torchmetrics/Semantic_Segmentation.ipynb

@@ -42,30 +42,29 @@ that nobody is already working on the same thing.
     make sure that the notebook follow PEP8.
     
     Keeps in mind, that the pages are build directly from the jupyter
-    notebooks. This is done with the help of [nbdev](https://github.com/fastai/nbdev/).
+    notebooks. This is done with the help of [quarto](https://quarto.org/).
     So, you can try and test the build locally, where you first will
     need to install it:
 
-    ```bash
-    $ pip install -r requeriments-dev.txt
-    $ pip install nbdev==2.1.6
-    ```
 
-    Manual install `quarto` to work with `nbdev==2.1.6`:
+    Manual install `quarto`:
     ```bash
-    $ curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.0.36/quarto-1.0.36-linux-amd64.deb
-    $ sudo dpkg -i *64.deb && rm *64.deb
+        $ curl -LO https://www.quarto.org/download/latest/quarto-linux-amd64.deb
+        $ sudo dpkg -i *64.deb && rm *64.deb
     ```
 
     To preview the pages, run:
 
     ```bash
-    $ nbdev_preview
+    $ quarto preview tutorials
     ```
     
-    Note: you can use some `magic flag` from nbdev to improve the
-    pages. By example use at some cell `%nbdev_collapse_output` to
-    hidden the output at the page.
+    Note: you can use some `cell options` from quarto to improve the
+    pages. By example use at some cell `#| output: false` to
+    hidden the output at the page. See other options [here](https://quarto.org/docs/reference/cells/cells-jupyter.html#overview).
+    In addition, you can use [front matters](https://quarto.org/docs/tools/jupyter-lab.html#yaml-front-matter).
+
+
 
     To help on follow PEP8 and also on formatting the notebooks with
     `black` and `isort`, you can use [pre-commit](https://github.com/pre-commit/pre-commit).
@@ -81,13 +80,6 @@ that nobody is already working on the same thing.
 
     ```bash
     $ pre-commit run
-    ```
-
-    If you work at [index](./tutorials/index.ipynb) file, please
-    also auto generate the readme file with the command:
-
-    ```bash
-    $ nbdev_readme
     ```
 
     Please write [good commit messages](https://chris.beams.io/posts/git-commit/).

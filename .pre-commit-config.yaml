@@ -11,7 +11,7 @@ repos:
   -  id: debug-statements
   -  id: requirements-txt-fixer
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 1.4.0
+  rev: 1.5.2
   hooks:
     - id: nbqa-pyupgrade
       args: [--py37-plus]
@@ -30,12 +30,3 @@ repos:
       entry: nbdev_clean
       language: python
       pass_filenames: false
-    - id: nbdev-docs
-      name: nbdev-docs
-      description: Generate docs
-      additional_dependencies: [nbdev>=2.1.1]
-      entry: nbdev_docs
-      language: python
-      pass_filenames: false
-ci:
-    skip: [nbdev-docs]
