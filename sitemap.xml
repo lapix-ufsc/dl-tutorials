@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/index.html</loc>
+    <lastmod>2024-03-13T21:31:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Image Classification/Fastai/resnet.html</loc>
+    <lastmod>2024-03-13T21:31:59.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Evaluation/torchmetrics/Semantic_Segmentation.html</loc>
+    <lastmod>2024-03-13T21:31:59.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Datasets/CCAgT.html</loc>
+    <lastmod>2024-03-13T21:31:59.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Semantic segmentation/index.html</loc>
+    <lastmod>2024-03-13T21:31:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Semantic segmentation/PaddleSeg/PaddleSeg_Lapix.html</loc>
+    <lastmod>2024-03-13T21:31:59.346Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Semantic segmentation/Fastai/unet.html</loc>
+    <lastmod>2024-03-13T21:31:59.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Semantic segmentation/Hugging Face/SegFormer_HF.html</loc>
+    <lastmod>2024-03-13T21:31:59.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Semantic segmentation/Semtorch/HRNet.html</loc>
+    <lastmod>2024-03-13T21:31:59.362Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Evaluation/pytorch_basics.html</loc>
+    <lastmod>2024-03-13T21:31:59.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Image Classification/HRNet/hrnet.html</loc>
+    <lastmod>2024-03-13T21:31:59.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lapix-ufsc.github.io/dl-tutorials/Image Classification/index.html</loc>
+    <lastmod>2024-03-13T21:31:59.326Z</lastmod>
+  </url>
+</urlset>
