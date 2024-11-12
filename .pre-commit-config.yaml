@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   -  id: check-merge-conflict
   -  id: check-case-conflict
@@ -9,7 +9,7 @@ repos:
   -  id: debug-statements
   -  id: requirements-txt-fixer
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 1.8.5
+  rev: 1.9.1
   hooks:
     - id: nbqa-pyupgrade
       args: [--py37-plus]
